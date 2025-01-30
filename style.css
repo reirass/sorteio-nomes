@@ -1,0 +1,119 @@
+:root {
+    background-color: rgb(26, 26, 26);
+    font-family: "Cutive Mono", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Cutive Mono", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #ffffffcb;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    inset: 0px;
+    margin-top: 200px;
+}
+
+.input-name{
+    width: 350px;
+    height: 25px;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: inherit;
+    box-shadow: 0px 0px 3px 0px rgba(89,89,89,1);
+    border-radius: 25px;
+    font-family: "Cutive Mono", serif;
+}
+
+.input-name:focus{
+    color:rgb(238, 238, 238)
+}
+
+.button-draw{
+    background-color: #918f8f;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    font-size: inherit;
+    box-shadow: 0px 0px 1.5px 0px rgba(89,89,89,1);
+    border-radius: 15px;
+    height: 30px;
+    width: 90px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    cursor: pointer;
+}
+
+.button-draw:hover{
+    background-color: #e4dacb;
+}
+
+div.container-ul{
+    width: 100%;
+    text-align: center;
+    font-family: "Cutive Mono", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.name-list {
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    list-style-type: none;
+    color: white;
+    font-size: 22px;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+.result-list {
+    list-style-type: none;
+    color: #bfe6b6;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Cutive Mono", serif;
+    max-width: 80%;
+    margin: 10px;
+    padding: 0;
+}
+
+.button-redo{
+    background-color: #918f8f;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    font-size: inherit;
+    box-shadow: 0px 0px 1.5px 0px rgba(89,89,89,1);
+    border-radius: 15px;
+    height: 30px;
+    width: 90px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    cursor: pointer;
+}
+
+.button-redo:hover{
+    background-color: #e4dacb;
+}
+
+p {
+    margin-top: 3px;
+    color: white;
+    font-size: 28px;
+}

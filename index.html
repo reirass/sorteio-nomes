@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Teste</title>
+</head>
+
+<body>
+
+    <h1>sorteio de nomes</h1>
+    
+
+    
+    <div class="main-container">
+    <img src="pngwing.comwhite.png" class="middle-cat" alt="just a drawing of a cat" height="155">
+    <input type="text" id="amigo" class="input-name" placeholder="digite um nome aqui">
+    <div class="container-button">
+    <button class="button-draw" onclick="sortearAmigo()" aria-label="Sortear amigo secreto">sortear</button>
+    <button class="button-redo" onclick="refazerSorteio()" aria-label="Limpar lista">zerar</button>
+    </div>
+    </div>
+
+    <div class="container-ul">
+        <p>lista atual</p>
+    <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
+    <ul id="resultado" class="result-list" aria-live="polite"></ul>
+    </div>  
+
+</body>
+</html>
+
+<script src="app.js" defer></script>
