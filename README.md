@@ -11,7 +11,7 @@ Este projeto é uma aplicação web simples para sortear amigos secretos. Os usu
 - Refazer o sorteio com novos nomes
 
 # Onde acessar e como usar
-1. Acesse o [Site](https://sorteio-nomes.vercel.app/)
+1. Acesse o [Site](https://sorteio-nomes.vercel.app/).
 2. Digite um nome por vez e pressione Enter.
 3. Clique no botão "sortear" para sortear um nome.
 4. Para realizar um novo sorteio, com a mesma lista, basta clicar novamente no botão "sortear".
